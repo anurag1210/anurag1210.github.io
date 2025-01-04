@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="theme-toggle">
+                    <button id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="hero">
+            <div class="profile-image">
+                <img src="images/Anurag.jpg" alt="Anurag Gupta">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Anurag Gupta</span></h1>
+            <p>Machine Learning Engineer</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate Machine Learning Engineer with expertise in developing AI solutions and data-driven applications. I specialize in building intelligent systems that solve complex real-world problems through innovative algorithms and deep learning models.</p>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-tags">
+                        <span data-scroll="fade-up">Python</span>
+                        <span data-scroll="fade-up">TensorFlow</span>
+                        <span data-scroll="fade-up">PyTorch</span>
+                        <span data-scroll="fade-up">Scikit-learn</span>
+                        <span data-scroll="fade-up">Deep Learning</span>
+                        <span data-scroll="fade-up">Computer Vision</span>
+                        <span data-scroll="fade-up">NLP</span>
+                        <span data-scroll="fade-up">MLOps</span>
+                        <span data-scroll="fade-up">AWS</span>
+                        <span data-scroll="fade-up">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-card">
+                <img src="https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" alt="AWS Solutions Architect">
+                <h3>AWS Certified Solutions Architect – Associate</h3>
+                <p>Amazon Web Services (AWS)</p>
+                <a href="https://www.credly.com/badges/14f94a98-421f-4df5-9042-452009984620" target="_blank" class="verify-button">
+                    <i class="fas fa-certificate"></i> Verify
+                </a>
+            </div>
+            <div class="certification-card">
+                <img src="https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Cloud Practitioner">
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>Amazon Web Services (AWS)</p>
+                <a href="https://www.credly.com/badges/4945b8b4-5844-4dd3-9280-d2117ec8be28" target="_blank" class="verify-button">
+                    <i class="fas fa-certificate"></i> Verify
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 data-scroll="fade-up">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-scroll="fade-up">
+                <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of your amazing project goes here.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Live Demo</a>
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/anurag1210" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/anurag-gupta-78351a59/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/anuragtech5" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anurag Gupta. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
